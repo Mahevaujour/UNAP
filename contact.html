@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrNotAPsycho - Votre Bien-être Mental</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/x-icon" href="logo_ico.ico">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.jpg" alt="Logo UrNotAPsycho">
+            </a>
+            <a href="index.html" class="brand-name">UrNotAPsycho</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post" aria-label="Formulaire de contact">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+
+            <label for="phone">Numéro de téléphone :</label>
+            <input type="tel" id="phone" name="phone" required aria-required="true">
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+
+    <footer>
+        <p>&copy; 2024 UrNotAPsycho. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
